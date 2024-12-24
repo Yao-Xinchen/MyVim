@@ -1,0 +1,25 @@
+-- return {
+--     "hrsh7th/nvim-cmp",
+--     opts = {
+--         mapping = {
+--             ["<Tab>"] = require("cmp").mapping(function(fallback)
+--                 local cmp = require("cmp")
+--                 if cmp.visible() then
+--                     cmp.select_next_item()
+--                 else
+--                     fallback()
+--                 end
+--             end, { "i", "s" }),
+--             ["<S-Tab>"] = require("cmp").mapping(function(fallback)
+--                 local cmp = require("cmp")
+--                 if cmp.visible() then
+--                     cmp.select_prev_item()
+--                 else
+--                     fallback()
+--                 end
+--             end, { "i", "s" }),
+--         },
+--     },
+-- }
+
+return {}
