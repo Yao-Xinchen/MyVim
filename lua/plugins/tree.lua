@@ -8,5 +8,8 @@ return {
                 hide_gitignored = false,
             },
         },
+        window = {
+            width = 27, -- Set the width of the neo-tree panel (in columns)
+        },
     },
 }
