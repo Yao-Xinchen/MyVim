@@ -9,7 +9,7 @@ return {
             },
         },
         window = {
-            width = 27, -- Set the width of the neo-tree panel (in columns)
+            width = 30, -- Set the width of the neo-tree panel (in columns)
         },
     },
 }
