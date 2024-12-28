@@ -17,7 +17,7 @@ return {
         ---@module "auto-session"
         ---@type AutoSession.Config
         opts = {
-            suppressed_dirs = { "~/", "~/Projects", "~/Downloads", "/" },
+            suppressed_dirs = { "~/", "~/Projects", "~/Downloads", "/", "~/Dev" },
 
             -- ⚠️ This will only work if Telescope.nvim is installed
             -- The following are already the default values, no need to provide them if these are already the settings you want.

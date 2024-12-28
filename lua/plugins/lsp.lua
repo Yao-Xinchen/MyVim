@@ -3,6 +3,7 @@ return {
     opts = {
         servers = {
             pyright = {}, -- Enable pyright
+            matlab_ls = {},
         },
     },
 }
