@@ -11,3 +11,6 @@ end, { desc = "Delete Buffer" })
 vim.keymap.set('n', '<C-M-l>', function()
     vim.lsp.buf.format({ async = true })
 end, { noremap = true, silent = true })
+
+vim.api.nvim_set_keymap('v', '<Tab>', '>gv', { noremap = true, silent = true })
+vim.api.nvim_set_keymap('v', '<S-Tab>', '<gv', { noremap = true, silent = true })
