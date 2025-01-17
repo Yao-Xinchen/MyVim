@@ -18,3 +18,5 @@ vim.api.nvim_set_hl(0, "BufferLineFill", { bg = bg_color }) -- Set the backgroun
 vim.api.nvim_set_hl(0, "TreesitterContext", { bg = bg_color })
 
 vim.g.clang_format_fallback_style = "file:$HOME/.clang-format"
+
+vim.g.autoformat = false
