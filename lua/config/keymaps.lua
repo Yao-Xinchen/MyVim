@@ -7,3 +7,7 @@ local map = vim.keymap.set
 map("n", "W", function()
     Snacks.bufdelete()
 end, { desc = "Delete Buffer" })
+
+vim.keymap.set('n', '<C-M-l>', function()
+    vim.lsp.buf.format({ async = true })
+end, { noremap = true, silent = true })
