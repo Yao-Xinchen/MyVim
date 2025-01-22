@@ -23,10 +23,10 @@ return {
         dependencies = { "nvim-treesitter/nvim-treesitter" },
         config = function()
             require("treesitter-context").setup({
-                enable = true, -- Enable this plugin (can be disabled for large files)
-                max_lines = 0, -- How many lines to show for the context (0 means unlimited)
+                enable = true,        -- Enable this plugin (can be disabled for large files)
+                max_lines = 0,        -- How many lines to show for the context (0 means unlimited)
                 trim_scope = "outer", -- Trim outer scope if the context size exceeds max_lines
-                patterns = { -- Match patterns for specific filetypes
+                patterns = {          -- Match patterns for specific filetypes
                     default = {
                         "class",
                         "function",
@@ -36,4 +36,11 @@ return {
             })
         end,
     },
+
+    {
+        "sphamba/smear-cursor.nvim",
+        opts = {
+            legacy_computing_symbols_support = false,
+        },
+    }
 }
