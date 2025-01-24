@@ -13,12 +13,14 @@ end, { desc = "Delete Buffer" })
 -- terminal
 map("n", "<c-`>", function()
     Snacks.terminal(nil, { cwd = LazyVim.root() })
-end, { desc = "Terminal (Root Dir)" })
+end, { desc = "Terminal (cwd)" })
 
 map("t", "<C-`>", "<cmd>close<cr>", { desc = "Hide Terminal" })
 
 unmap("n", "<C-/>")
 unmap("t", "<C-/>")
+
+
 
 -- format
 map('n', '<C-M-l>', function()
