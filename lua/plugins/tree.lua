@@ -10,6 +10,15 @@ return {
         },
         window = {
             width = 30, -- Set the width of the neo-tree panel (in columns)
+            mappings = {
+                ["P"] = {
+                    "toggle_preview",
+                    config = {
+                        use_float = true,
+                        use_image_nvim = true,
+                    },
+                },
+            }
         },
     },
 }

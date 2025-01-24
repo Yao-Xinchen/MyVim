@@ -15,7 +15,7 @@ vim.opt.number = true          -- Enable absolute line numbers
 
 local bg_color = "#1e1e2e"
 vim.api.nvim_set_hl(0, "BufferLineFill", { bg = bg_color }) -- Set the background
-vim.api.nvim_set_hl(0, "TreesitterContext", { bg = bg_color })
+-- vim.api.nvim_set_hl(0, "TreesitterContext", { bg = bg_color })
 
 vim.g.clang_format_fallback_style = "file:$HOME/.clang-format"
 
