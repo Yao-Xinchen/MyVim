@@ -20,8 +20,6 @@ map("t", "<C-`>", "<cmd>close<cr>", { desc = "Hide Terminal" })
 unmap("n", "<C-/>")
 unmap("t", "<C-/>")
 
-
-
 -- format
 map('n', '<C-M-l>', function()
     vim.lsp.buf.format({ async = true })
