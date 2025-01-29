@@ -10,6 +10,9 @@ map("n", "W", function()
     Snacks.bufdelete()
 end, { desc = "Delete Buffer" })
 
+-- delete window
+map("n", "<C-w>", ":close<CR>", { desc = "Delete Window", remap = true })
+
 -- terminal
 map("n", "<c-`>", function()
     Snacks.terminal(nil, { cwd = LazyVim.root() })

@@ -18,7 +18,7 @@ return {
         ---@module "auto-session"
         ---@type AutoSession.Config
         opts = {
-            auto_restore_last_session = true,
+            auto_restore_last_session = false,
             lazy_support = true,
 
             suppressed_dirs = { "~/", "~/Projects", "~/Downloads", "/", "~/Dev" },
